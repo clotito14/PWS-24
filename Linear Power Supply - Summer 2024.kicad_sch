@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Linear Power Supply - SUMMER 2024")
-		(date "2024-06-08")
-		(company "Lotito Electric")
+		(date "2024-06-16")
+		(company "Lotito Laboratories")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized_Small_US"
@@ -1595,6 +1595,138 @@
 				)
 			)
 		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 133.35 102.87)
@@ -1802,6 +1934,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 113.03) (xy 78.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d46d0da-127f-4839-acfb-360726df261b")
+	)
+	(wire
+		(pts
 			(xy 78.74 87.63) (xy 93.98 87.63)
 		)
 		(stroke
@@ -1959,6 +2101,16 @@
 			(type default)
 		)
 		(uuid "a41f7c3c-482c-483d-a30c-5dfb3a6d3cd9")
+	)
+	(wire
+		(pts
+			(xy 68.58 113.03) (xy 78.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad03e035-16d6-4b62-9c62-bffff511256f")
 	)
 	(wire
 		(pts
@@ -2130,6 +2282,39 @@
 		)
 		(uuid "dadf7e8a-8716-40fc-b6e4-97dd80afba2d")
 	)
+	(text "TO GND CHASSIS"
+		(exclude_from_sim no)
+		(at 87.376 115.062 0)
+		(effects
+			(font
+				(face "JetBrainsMono NF")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fae8e8b8-aced-4d7d-841e-92dc5c41a603")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 68.58 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14682cf2-292b-44f9-9162-27f5566e8e84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.6198 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+120VAC{slash}N"
 		(shape input)
 		(at 73.66 97.79 180)
@@ -2224,7 +2409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chase's Footprints:Small Electrolytic Capacitor"
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -2558,7 +2743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 187.706 92.964 90)
 			(effects
 				(font
@@ -2610,7 +2795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fea84c6-addf-426f-b0b6-586d3e5cb61c")
-		(property "Reference" "RV1"
+		(property "Reference" "POT1"
 			(at 170.18 110.4899 0)
 			(effects
 				(font
@@ -2628,7 +2813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14-H2,5_Horizontal"
 			(at 172.72 111.76 0)
 			(effects
 				(font
@@ -2667,7 +2852,7 @@
 		(instances
 			(project ""
 				(path "/1c8830c9-4fc6-4803-9490-280577e79dde"
-					(reference "RV1")
+					(reference "POT1")
 					(unit 1)
 				)
 			)
@@ -3048,6 +3233,72 @@
 			(project ""
 				(path "/1c8830c9-4fc6-4803-9490-280577e79dde"
 					(reference "BR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 78.74 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5f27e6c-9a7c-4c23-ac2a-7f1cb3bdf60c")
+		(property "Reference" "#PWR03"
+			(at 78.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c61ebe6a-df0f-4c09-adb7-d182745d61c3")
+		)
+		(instances
+			(project ""
+				(path "/1c8830c9-4fc6-4803-9490-280577e79dde"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
