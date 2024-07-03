@@ -1071,6 +1071,621 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:1935174"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1935174"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "1935174"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.rs-online.com/ae58/0900766b81597fd2.pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB terminal block, Nominal current: 17.5 A, Nom. voltage: 400 V, Pitch: 5 mm, Number of positions: 3, Connection method: Screw connection with wire protector, Mounting: Wave soldering, Conductor/PCB connection direction: 0 , Color: green, Also possible: Connection of a 1.5 mm conductor with ferrule, then however with reduction in rated voltage or degree of pollution / surge category."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "PCB terminal block, Nominal current: 17.5 A, Nom. voltage: 400 V, Pitch: 5 mm, Number of positions: 3, Connection method: Screw connection with wire protector, Mounting: Wave soldering, Conductor/PCB connection direction: 0 , Color: green, Also possible: Connection of a 1.5 mm conductor with ferrule, then however with reduction in rated voltage or degree of pollution / surge category."
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "11.55"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1935174"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "651-1935174"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935174?qs=QWULklcAmSR8B7o4YouITA%3D%3D"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "1935174"
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1935174/phoenix-contact?region=nac"
+				(at 16.51 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "1935174_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1935174_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:1935187"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1935187"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "1935187"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.phoenixcontact.com/us/products/1935187/pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fixed Terminal Blocks PT 1.5/4-5.0-H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Fixed Terminal Blocks PT 1.5/4-5.0-H"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "11.55"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1935187"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "651-1935187"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935187?qs=W3wJikR1%252BS5tIYApIw6HoQ%3D%3D"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "1935187"
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1935187/phoenix-contact?region=nac"
+				(at 16.51 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "1935187_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1935187_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:1935776"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1935776"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "1935776"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00057493.pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fixed Terminal Blocks PT 2.5/ 2-5.0-H g"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Fixed Terminal Blocks PT 2.5/ 2-5.0-H g"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "13.65"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1935776"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "651-1935776"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935776?qs=gjk32EaArKJ3oesOAo3TWA%3D%3D"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "1935776"
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1935776/phoenix-contact?region=nac"
+				(at 16.51 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "1935776_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1935776_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:LD1085V"
 			(pin_names
 				(offset 0.762)
@@ -1735,16 +2350,40 @@
 		(uuid "07f70042-cb7e-4156-9dda-3262dd2dba7d")
 	)
 	(junction
+		(at 147.32 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14ce516d-9cb6-4491-a6f1-d96df9905109")
+	)
+	(junction
 		(at 147.32 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "230526b9-faab-4445-9b67-b3adc34df6ea")
 	)
 	(junction
+		(at 53.34 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24602da6-6fb8-4683-b356-daccfff75ddf")
+	)
+	(junction
+		(at 257.81 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38c4e2aa-8ff8-4c42-b6f3-2d73b4745941")
+	)
+	(junction
 		(at 177.8 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d513570-b849-4e59-8eca-23dbebd51cf8")
+	)
+	(junction
+		(at 48.26 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "499d0d34-bc8e-4305-ad3e-0e5ba73a8f0c")
 	)
 	(junction
 		(at 172.72 100.33)
@@ -1777,10 +2416,44 @@
 		(uuid "7b133338-0487-492d-93cf-3100e38daf73")
 	)
 	(junction
+		(at 147.32 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86c6575c-5edf-457c-a68f-3acc6c8dd2e3")
+	)
+	(junction
+		(at 210.82 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "924c57a4-731a-4bac-9a20-26e3661b2ac8")
+	)
+	(junction
+		(at 163.83 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c21e1b-efaf-470e-9f5a-9707d95ba0fc")
+	)
+	(junction
 		(at 78.74 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf5d51ee-8e66-4b2c-a719-b8639f8b30ff")
+	)
+	(junction
+		(at 50.8 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8a14e39-d468-4ec7-9c30-1459f39f8576")
+	)
+	(wire
+		(pts
+			(xy 48.26 83.82) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f8a8ed-5daf-4f5f-b4cb-8ecec2ed7795")
 	)
 	(wire
 		(pts
@@ -1794,6 +2467,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 138.43) (xy 257.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d26e5c-3e59-492e-9b53-b367019ab68b")
+	)
+	(wire
+		(pts
+			(xy 134.62 133.35) (xy 147.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e262ee-e66d-4659-80fd-9e668ff32231")
+	)
+	(wire
+		(pts
 			(xy 186.69 88.9) (xy 186.69 85.09)
 		)
 		(stroke
@@ -1804,7 +2497,27 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 83.82) (xy 81.28 83.82)
+			(xy 50.8 80.01) (xy 50.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d017d7f-c359-4723-97a8-af2e28975c49")
+	)
+	(wire
+		(pts
+			(xy 262.89 78.74) (xy 257.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192bc67e-a59c-4f06-8df6-ce0a4df5d2d3")
+	)
+	(wire
+		(pts
+			(xy 39.37 83.82) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1824,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 85.09) (xy 165.1 71.12)
+			(xy 163.83 85.09) (xy 163.83 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1841,6 +2554,16 @@
 			(type default)
 		)
 		(uuid "21d387b8-56ef-4b40-bc59-c14ad5c1f4ec")
+	)
+	(wire
+		(pts
+			(xy 210.82 85.09) (xy 231.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f6127c-d218-45f0-bb8d-b0da98c27477")
 	)
 	(wire
 		(pts
@@ -1864,6 +2587,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 87.63) (xy 229.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378aaaba-c981-4942-83c3-43d929ba4157")
+	)
+	(wire
+		(pts
 			(xy 81.28 83.82) (xy 81.28 80.01)
 		)
 		(stroke
@@ -1884,6 +2617,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 121.92) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4457fb15-d59e-4a36-9d9a-cdf7bed85230")
+	)
+	(wire
+		(pts
 			(xy 109.22 80.01) (xy 128.27 80.01)
 		)
 		(stroke
@@ -1891,6 +2634,16 @@
 			(type default)
 		)
 		(uuid "456d583f-cfc9-413f-adeb-498db0881b3b")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 210.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b602e78-b83d-4280-9489-2d6a17503f4b")
 	)
 	(wire
 		(pts
@@ -1924,23 +2677,53 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 85.09) (xy 229.87 85.09)
+			(xy 147.32 130.81) (xy 147.32 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56e9f3ad-78b0-4d41-a634-35d823cc221e")
+		(uuid "51199871-2436-40e3-9da9-f60a25382f63")
 	)
 	(wire
 		(pts
-			(xy 78.74 113.03) (xy 78.74 119.38)
+			(xy 229.87 87.63) (xy 231.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52429053-ddde-4f2e-b656-11c0ee29bb14")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 257.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b22d10-5b74-4c98-8f56-7c68c2a0f889")
+	)
+	(wire
+		(pts
+			(xy 78.74 111.76) (xy 78.74 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d46d0da-127f-4839-acfb-360726df261b")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe9e71f-0764-4cdf-ae9c-cd4bf616916d")
 	)
 	(wire
 		(pts
@@ -1964,6 +2747,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 97.79) (xy 78.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701a7048-5ce4-4d32-8e79-dad799f92318")
+	)
+	(wire
+		(pts
+			(xy 134.62 138.43) (xy 257.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f71892-9c14-4f60-a4b5-1bf5a4db3ef7")
+	)
+	(wire
+		(pts
 			(xy 172.72 100.33) (xy 186.69 100.33)
 		)
 		(stroke
@@ -1974,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 97.79) (xy 78.74 97.79)
+			(xy 39.37 97.79) (xy 50.8 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2084,6 +2887,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 130.81) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e62c51c-efdf-4cb8-b9aa-787fa81b560f")
+	)
+	(wire
+		(pts
 			(xy 186.69 85.09) (xy 210.82 85.09)
 		)
 		(stroke
@@ -2104,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 113.03) (xy 78.74 113.03)
+			(xy 39.37 111.76) (xy 53.34 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2154,6 +2967,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 135.89) (xy 163.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fea637-0979-4a92-b091-5f717d3c45c8")
+	)
+	(wire
+		(pts
 			(xy 109.22 87.63) (xy 115.57 87.63)
 		)
 		(stroke
@@ -2184,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 71.12) (xy 179.07 71.12)
+			(xy 163.83 71.12) (xy 179.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2201,6 +3024,26 @@
 			(type default)
 		)
 		(uuid "dffc4742-4891-48e0-87a0-d8ab1475d9d3")
+	)
+	(wire
+		(pts
+			(xy 134.62 135.89) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e119999b-6889-4b89-b3d0-ff21500a0632")
+	)
+	(wire
+		(pts
+			(xy 134.62 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50fdf6a-9912-457a-a5fd-f3fdeb064d01")
 	)
 	(wire
 		(pts
@@ -2234,13 +3077,33 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 165.1 85.09)
+			(xy 53.34 80.01) (xy 53.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1371653-2f63-43a7-9622-a6f3a27bacbd")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 163.83 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f173aee1-c3e2-4b0f-a68d-c336354ea0f0")
+	)
+	(wire
+		(pts
+			(xy 53.34 111.76) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e33240-ba47-4179-98e9-60ce6a083e12")
 	)
 	(wire
 		(pts
@@ -2272,9 +3135,47 @@
 		)
 		(uuid "fea6f374-cce5-4bfb-a4bc-234ff4a0c3a0")
 	)
+	(text_box "DC OUTPUT TERMINAL BLOCK"
+		(exclude_from_sim no)
+		(at 232.41 90.17 0)
+		(size 19.05 6.1976)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53060c74-ae8e-4983-9cb1-cbcbc1f4cc80")
+	)
+	(text "120VAC MAINS TERMINAL BLOCK"
+		(exclude_from_sim no)
+		(at 51.308 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b426ad1-885b-49d7-bb61-538cd19a2848")
+	)
+	(text "VOLT METER TERMINAL BLOCK"
+		(exclude_from_sim no)
+		(at 124.206 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87220bad-cd0c-4904-92ec-b6a20517fc24")
+	)
 	(text "+120VAC WIRED IN FROM MAINS\n(L to 1, N to 2)"
 		(exclude_from_sim no)
-		(at 76.2 75.946 0)
+		(at 29.972 91.186 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2295,7 +3196,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 68.58 113.03 180)
+		(at 39.37 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2305,7 +3206,7 @@
 		)
 		(uuid "14682cf2-292b-44f9-9162-27f5566e8e84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.6198 113.03 0)
+			(at 33.4098 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +3218,7 @@
 	)
 	(global_label "+120VAC{slash}N"
 		(shape input)
-		(at 73.66 97.79 180)
+		(at 39.37 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2327,7 +3228,7 @@
 		)
 		(uuid "33d8b0c6-313b-492b-b3a2-e34ba888a81f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.305 97.79 0)
+			(at 27.015 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +3240,7 @@
 	)
 	(global_label "+120VAC{slash}L"
 		(shape input)
-		(at 73.66 83.82 180)
+		(at 39.37 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2349,7 +3250,7 @@
 		)
 		(uuid "5b5b1f30-b3b8-4129-89bd-1b696a94f831")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.305 83.82 0)
+			(at 27.015 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +3262,7 @@
 	)
 	(global_label "Vout"
 		(shape output)
-		(at 229.87 85.09 0)
+		(at 262.89 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2369,9 +3270,9 @@
 			)
 			(justify left)
 		)
-		(uuid "60b75142-2451-40e5-9dac-43ba1ae6e04a")
+		(uuid "6bbbc0da-ad73-40b5-8759-25cc7c31e776")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.896 85.09 0)
+			(at 269.916 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,6 +3353,161 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:1935174")
+		(at 48.26 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1224b28f-5392-4d42-bdd5-a0ffd1133cfa")
+		(property "Reference" "TB1"
+			(at 57.15 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1935174"
+			(at 57.15 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1935174"
+			(at 45.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.rs-online.com/ae58/0900766b81597fd2.pdf"
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, Nominal current: 17.5 A, Nom. voltage: 400 V, Pitch: 5 mm, Number of positions: 3, Connection method: Screw connection with wire protector, Mounting: Wave soldering, Conductor/PCB connection direction: 0 , Color: green, Also possible: Connection of a 1.5 mm conductor with ferrule, then however with reduction in rated voltage or degree of pollution / surge category."
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PCB terminal block, Nominal current: 17.5 A, Nom. voltage: 400 V, Pitch: 5 mm, Number of positions: 3, Connection method: Screw connection with wire protector, Mounting: Wave soldering, Conductor/PCB connection direction: 0 , Color: green, Also possible: Connection of a 1.5 mm conductor with ferrule, then however with reduction in rated voltage or degree of pollution / surge category."
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.55"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1935174"
+			(at 58.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1935174"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935174?qs=QWULklcAmSR8B7o4YouITA%3D%3D"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "1935174"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1935174/phoenix-contact?region=nac"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97ba7f77-a895-433c-adea-b5bd54e090c0")
+		)
+		(pin "1"
+			(uuid "af4ee3dc-4ed8-4bfb-b542-036e94599afb")
+		)
+		(pin "2"
+			(uuid "87b32069-fd7d-471d-9dda-328d54059609")
+		)
+		(instances
+			(project ""
+				(path "/1c8830c9-4fc6-4803-9490-280577e79dde"
+					(reference "TB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 127 0)
 		(unit 1)
@@ -2513,6 +3569,167 @@
 			(project ""
 				(path "/1c8830c9-4fc6-4803-9490-280577e79dde"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:1935776")
+		(at 231.14 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31368513-118a-4a44-88c4-695a9294e079")
+		(property "Reference" "TB3"
+			(at 247.65 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1935776"
+			(at 247.65 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1935776"
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00057493.pdf"
+			(at 247.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Terminal Blocks PT 2.5/ 2-5.0-H g"
+			(at 231.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fixed Terminal Blocks PT 2.5/ 2-5.0-H g"
+			(at 247.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.65"
+			(at 247.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1935776"
+			(at 247.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1935776"
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935776?qs=gjk32EaArKJ3oesOAo3TWA%3D%3D"
+			(at 247.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "1935776"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1935776/phoenix-contact?region=nac"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 231.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b732cf6c-8e2c-449d-807d-88de5279c435")
+		)
+		(pin "2"
+			(uuid "331093b8-9733-401e-ad30-e1fb70d04f5b")
+		)
+		(instances
+			(project ""
+				(path "/1c8830c9-4fc6-4803-9490-280577e79dde"
+					(reference "TB3")
 					(unit 1)
 				)
 			)
@@ -2813,7 +4030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14-H2,5_Horizontal"
+		(property "Footprint" "SamacSys_PCB_Library:1935174"
 			(at 172.72 111.76 0)
 			(effects
 				(font
@@ -2840,6 +4057,15 @@
 				(hide yes)
 			)
 		)
+		(property "Untitled Field" ""
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ec081fb-34f0-43da-9617-a5190d7a404f")
 		)
@@ -2853,6 +4079,162 @@
 			(project ""
 				(path "/1c8830c9-4fc6-4803-9490-280577e79dde"
 					(reference "POT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:1935187")
+		(at 134.62 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "700b74d0-521e-4694-aec1-e8eee4940c2d")
+		(property "Reference" "TB2"
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1935187"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1935187"
+			(at 118.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.phoenixcontact.com/us/products/1935187/pdf"
+			(at 118.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Terminal Blocks PT 1.5/4-5.0-H"
+			(at 134.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fixed Terminal Blocks PT 1.5/4-5.0-H"
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.55"
+			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1935187"
+			(at 118.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1935187"
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935187?qs=W3wJikR1%252BS5tIYApIw6HoQ%3D%3D"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "1935187"
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1935187/phoenix-contact?region=nac"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f2704270-0de5-46de-b000-852a09ae3223")
+		)
+		(pin "1"
+			(uuid "6729eaa4-e79c-4376-920b-52716cabba0a")
+		)
+		(pin "2"
+			(uuid "be5f6ce1-2845-4ba0-881b-6930ba377351")
+		)
+		(pin "3"
+			(uuid "5ad96af0-0eda-48df-a065-6e01530ebed4")
+		)
+		(instances
+			(project ""
+				(path "/1c8830c9-4fc6-4803-9490-280577e79dde"
+					(reference "TB2")
 					(unit 1)
 				)
 			)
