@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|120000000|132000000|31aa4b3a-a423-496a-92b9-443c6b3f9dbe|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|141000000|132000000|882c1872-8ee5-4a41-9147-431a6bffa8de|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|164250000|132000000|6910c1d8-ac64-418d-8804-1fe3fd84404a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|188436000|106775000|35258d79-f289-4d83-9b92-22d7607c825b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|194275000|131500000|9c640d55-575b-4fbd-9d47-12eafb3c6fd9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|199916000|113550000|b9d71f68-e5a3-4931-a6f9-0ceb44c4657e|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -691,6 +698,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Untitled Field",
+          "name": "Untitled Field",
           "show": false
         }
       ],
